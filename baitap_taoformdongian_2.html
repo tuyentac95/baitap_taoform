@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập tạo form đơn giản 2</title>
+    <style>
+        .Font {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Arial, sans-serif;
+        }
+    </style>
+</head>
+<body bgcolor="#fffda9" class="Font">
+    <h2 style="color:#0433FF;background-color:#d4fdd6;">ĐĂNG KÍ HỌC VIÊN</h2>
+    <form>
+        <div style="color: #102BAA">
+        <p>Họ và tên &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="yourname" size="40"/></p>
+        <p>Ngày sinh &nbsp; &nbsp; &nbsp; <input type="text" name="birth" size="30"/></p>
+        <p>Giới tính &nbsp; &nbsp; &nbsp; <span style="color: black;font-family: 'Times New Roman'"><label><input type="radio" name="man"/>Nam</label><label><input type="radio" name="woman"/>Nữ</label></span></p>
+        <p>Địa chỉ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<textarea cols="50" rows="4"></textarea name="address"></p>
+        <p>Lớp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <select name="class">
+            <option value="">-Chọn lớp-</option>
+            <option value="A1">Lớp A1</option>
+            <option value="A2">Lớp A2</option>
+            <option value="B1">Lớp B1</option>
+            <option value="B2">Lớp B2</option>
+        </select></p>
+        <p>Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <input type="text" name="email" size="35"/></p>
+        <p>Điện thoại &nbsp; &nbsp; &nbsp; <input type="text" name="phone" size="35"/></p>
+        </div>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="submit" name="submit" value="Đăng kí"/>&nbsp;&nbsp;<input type="reset" name="reset" value="Nhập lại"/></p>
+    </form>
+</body>
+</html>
